@@ -17,3 +17,9 @@ __pycache__/
 .omx/
 .venv/
 src_w_solution/
+
+# Claude Code
+.claude/
+
+# Lab artifacts
+report_run_output.txt

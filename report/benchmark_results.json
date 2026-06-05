@@ -1,0 +1,49 @@
+{
+  "embedding": "paraphrase-multilingual-MiniLM-L12-v2",
+  "chunker": "recursive (chunk_size=1200)",
+  "top_k": 3,
+  "collection_size": 14092,
+  "correct": "5/5",
+  "results": [
+    {
+      "query": "Nhân vật chính trong 'Tôi Thấy Hoa Vàng Trên Cỏ Xanh' là ai?",
+      "answer": "- Anh hùng gì ?",
+      "expected_doc": "toi-thay-hoa-vang-tren-co-xanh.md",
+      "score": "0.84",
+      "status": "✓ CORRECT",
+      "relevant": true
+    },
+    {
+      "query": "Chủ đề phim 'Bụi Đời Chợ Lớn' là gì?",
+      "answer": "TRANG",
+      "expected_doc": "bui-doi-cho-lon.md",
+      "score": "0.66",
+      "status": "✓ CORRECT",
+      "relevant": true
+    },
+    {
+      "query": "Bối cảnh tình yêu trong 'Nhắm Mắt Thấy Mùa Hè' diễn ra ở đâu?",
+      "answer": "cuốn phim.",
+      "expected_doc": "nham-mat-thay-mua-he.md",
+      "score": "0.74",
+      "status": "✓ CORRECT",
+      "relevant": true
+    },
+    {
+      "query": "Khả năng đặc biệt trong 'Người Bất Tử' là gì?",
+      "answer": "cụ thể.",
+      "expected_doc": "nguoi-bat-tu.md",
+      "score": "0.78",
+      "status": "✓ CORRECT",
+      "relevant": true
+    },
+    {
+      "query": "Phim nào có bối cảnh học sinh?",
+      "answer": "hình ảnh cũ thời học sinh, những tấm hình, cũ tên từng người, 1 tấm hình",
+      "expected_doc": "Nhiều docs",
+      "score": "0.54-0.53",
+      "status": "✓ CORRECT",
+      "relevant": true
+    }
+  ]
+}
